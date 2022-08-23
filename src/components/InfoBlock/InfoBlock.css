@@ -1,0 +1,56 @@
+.infoBlock-container {
+    background-color: #F1F2F2;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    min-height: 25rem;
+    text-align: center;
+}
+
+.infoBlock-container h3 {
+    padding-top: 2rem;
+    font-size: 3.0rem;
+    font-weight: 500;
+    color: #172B4C;
+    font-family: Montserrat;
+    font-weight: 800;
+}
+
+.infoBlock-container span {
+    color: #FFA800;
+}
+
+.infoBlock-container p {
+    font-size: 1.25rem;
+    text-align: center;
+    color: #172B4C;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    letter-spacing: 0.19rem;
+    font-family: Montserrat;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.infoBlock-container button {
+    width: 12.5rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    background-color: #FFA800;
+    color: white;
+    border: 1px solid #FFA800;
+    border-radius: 0.3rem;
+}
+
+@media screen  and (max-width: 470px){
+    .infoBlock-container h3 {
+       
+        font-size: 2.0rem;
+       
+
+    }
+    .infoBlock-container p {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,51 @@
+.footer-container {
+
+    background-color: #2A2B30;
+    min-height: 25rem;
+}
+
+.footer-logo-container {
+    padding-bottom: 3rem;
+    
+}
+
+.footer-logo-container h4 {
+    color: #606060;
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-family: Montserrat;
+}
+
+.footer-logo-container img {
+    height: 4.375rem;
+    width: 4.375rem;
+}
+
+.section-container {
+
+    color: #606060;
+}
+
+.section-container h5 {
+    text-align: left;
+    font-size: 1.125rem;
+    font-weight: 600;
+
+    color: var(--primary);
+}
+
+.section-container p {
+    font-size: 0.875rem;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 770px) {
+    .section-container h5 {
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .section-container p {
+        text-align: center;
+    }
+}

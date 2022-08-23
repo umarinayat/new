@@ -1,0 +1,24 @@
+.second-footer-container {
+    min-height: 3.125rem;
+    border-top: 1px solid #606060;
+    background-color: #2A2B30;
+}
+.second-footer-container p {
+    font-family: 'Montserrat' sans-serif;
+    font-size: 400;
+    color: #606060;
+    font-size: 0.875rem;
+}
+
+@media screen and (max-width: 770px) {
+    .second-footer-container p{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 772px) {
+    .second-footer-container p{
+        text-align: left;
+        padding-left: 6rem;
+    }
+}

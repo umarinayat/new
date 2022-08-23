@@ -1,0 +1,78 @@
+.mobileInfo-container {
+    display: flex;
+    margin-top: 20.125rem;
+    flex-direction: row;
+}
+
+.mobileInfo-container img {
+    height: 40rem;
+    width: 20rem;
+    padding-left: 9.375rem;
+    position: absolute;
+    z-index: 10;
+    top: 207.125rem;
+ 
+}
+
+.mobileInfo-desc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 33.625rem;
+    margin-bottom: 2.5rem;
+}
+
+@media all and (max-width:1400px) {
+
+   
+.mobileInfo-desc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+.mobileInfo-container img {
+    height: 40rem;
+    width: 20rem;
+    padding-left: 9.375rem;
+    position: absolute;
+    z-index: 10;
+    top: 212.125rem;
+ 
+}
+}
+
+.mobileInfo-desc-container h6 {
+    font-size: 3.125rem;
+    color: var(--secondary);
+    padding-bottom: 1rem;
+    font-weight: 100;
+    letter-spacing: -1px;
+    padding-bottom: 1.563rem;
+}
+
+.mobileInfo-desc-container p {
+    font-size: 0.875rem;
+    color: var(--secondary);
+    padding-bottom: 2rem;
+}
+
+.mobileInfo-desc-container button {
+    width: 13rem;
+    height: 2.5rem;
+    background-color: var(--primary);
+    color: white;
+    border: 1px solid var(--primary);
+    border-radius: 0.3rem;
+
+}
+
+.static-block {
+    background-color: var(--secondary);
+    min-height: 18.75rem;
+    position: relative;
+}

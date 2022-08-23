@@ -1,0 +1,108 @@
+
+.submit {
+    width: 20%;
+    height: 100%;
+    font-size: 1.5rem;
+    border-radius: 0 3.125rem 3.125rem 0;
+    background-color: #FFA800 ;
+    border: solid 1px #FFA800;
+    color: #172B4C !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.custom-icon {
+    
+font-weight: bolder;
+}
+.sub-heading {
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    padding-top: 1.563rem;
+    font-weight: 600;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0,0.4)), url('../../assets//hero-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.search {
+    border-radius: 3.125rem 0 0 3.125rem !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    color: white !important;
+    border: solid 0.06rem #FFA800 !important;
+    padding-left: 1.25rem !important;
+    height: 60px !important;
+    width: 45% !important;
+}
+.search::placeholder {
+    color: #FFFFFF !important;
+    font-size: 18px !important;
+}
+
+.search:focus {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: 1px solid #FFA800 !important;
+    box-shadow: none !important;
+    color: #FFFFFF !important;
+    font-family: Montserrat !important;
+    font-size: 18px !important;
+}
+
+.custom-heading-fonts {
+    font-family: Montserrat;
+    font-size: 50px;
+    color: var(--primary);
+    font-weight: bolder;
+}
+
+.custom-subheading-fonts {
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.custom-button {
+    width: 10%;
+    height: 60px;
+    border-radius: 0 3.125rem 3.125rem 0 !important;
+    color: #172B4C !important;
+    background-color: var(--primary) !important;
+    border: #FFA800 !important;
+    font-family: Montserrat !important;
+    font-size: 16px !important;
+    font-weight: 800 !important;}
+
+.custom-button:hover {
+    background-color: var(--primary);
+}
+
+@media screen and (max-width: 996px) {
+    .custom-button {
+        width: 15%;
+        font-size: 12px !important;
+        min-width: 70px;
+    }
+    .search {
+    font-size: 12px !important;
+    }
+    .search::placeholder {
+        color: #FFFFFF !important;
+        font-size: 12px !important;
+    }
+    .search:focus {
+        font-size: 12px !important;
+    }
+}
