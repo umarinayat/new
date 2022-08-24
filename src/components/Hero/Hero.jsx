@@ -5,7 +5,7 @@ import { Container, Form, Button } from "react-bootstrap";
 const Hero = () => {
   return (
     <>
-      <Container fluid className="hero img-fluid">
+      <Container fluid className="hero img-fluid section-cls">
         <div className=" h-100  row text-center p-5">
           <h1 className="custom-heading-fonts pt-4">5,000+ INSIGHTS</h1>
           <h1 className="custom-heading-fonts" style={{ color: "white" }}>

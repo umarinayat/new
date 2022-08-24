@@ -20,7 +20,7 @@ const HomePage = () => {
         <div>PlaceHolder</div>
         <InfoBlock />
         <Symfinder />
-        {/* <WebInfo /> */}
+         <WebInfo />
         <Insights />
         <MobileInfo />
         <Footer />

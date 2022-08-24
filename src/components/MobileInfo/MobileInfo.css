@@ -4,14 +4,13 @@
     flex-direction: row;
 }
 
-.mobileInfo-container img {
-    height: 40rem;
-    width: 20rem;
-    padding-left: 9.375rem;
+.mobileInfo-img-mobile {
+    width: auto;
     position: absolute;
-    z-index: 10;
-    top: 207.125rem;
- 
+    z-index: 1;
+    max-height: 30rem;
+    left: 0;
+    top: 4rem;
 }
 
 .mobileInfo-desc-container {
@@ -75,4 +74,26 @@
     background-color: var(--secondary);
     min-height: 18.75rem;
     position: relative;
+}
+
+@media (max-width: 576px) {
+    .mobileInfo-img-mobile{
+        display: none;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .mobileInfo-img-mobile{
+        max-height: 20rem;
+        left: 0;
+        top: 15rem;
+    }
+}
+
+@media (min-width: 1441px) {
+    .mobileInfo-img-mobile{
+        max-height: 30rem;
+        left: 0;
+        top: 4rem;
+    }
 }

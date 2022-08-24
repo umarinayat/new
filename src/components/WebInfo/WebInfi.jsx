@@ -4,7 +4,7 @@ import laptopBg from "../../assets/laptop-bg.png";
 
 const WebInfo = () => {
   return (
-    <Container fluid className="p-0">
+    <Container fluid className="p-0" style={{position: "relative"}}>
       <div className="webinfo-container">
         <div className="webinfo-text-container">
           <h3>
@@ -17,9 +17,7 @@ const WebInfo = () => {
           </p>
           <button>REGISTAR NOW</button>
         </div>
-        <div className="webinfo-img-container">
-          <img src={laptopBg} alt="laptop" />
-        </div>
+        <img className="webinfo-img-laptop" src={laptopBg} alt="laptop" />
       </div>
       {/* <div className="row">
         <h3>

@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+.section-cls{
+    min-height: 25rem;
+}
+
 body, html {
     font-family: Montserrat;
     

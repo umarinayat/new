@@ -3,7 +3,7 @@ import "./InfoBlock.css";
 
 const InfoBlock = () => {
   return (
-    <Container fluid className="p-0">
+    <Container fluid className="p-0 section-cls">
       <div className="infoBlock-container">
         <h3>
           TRANSPARENT<span>.</span> QUICK<span>.</span> EASY<span>.</span>

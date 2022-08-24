@@ -7,7 +7,7 @@ import { Container } from "react-bootstrap";
 const Insights = () => {
   return (
     <>
-      <Container fluid className="p-0">
+      <Container fluid className="p-0 section-cls">
         <div className="insights-container">
           <Container>
             <h2 className="text-left">
