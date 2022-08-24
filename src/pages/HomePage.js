@@ -20,8 +20,8 @@ const HomePage = () => {
         <div>PlaceHolder</div>
         <InfoBlock />
         <Symfinder />
-        <WebInfo />
-        {/* <Insights /> */}
+        {/* <WebInfo /> */}
+        <Insights />
         <MobileInfo />
         <Footer />
         <SecondFooter />
