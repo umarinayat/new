@@ -1,5 +1,4 @@
 .webinfo-container {
-    /* background-color: var(--secondary); */
     background-image: url('../../assets/web-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,6 +32,7 @@
     font-size: 1.125rem;
     color: white;
     padding-bottom: 2rem;
+    text-align: left;
 }
 
 .webinfo-text-container button {
@@ -59,51 +59,86 @@
     .webinfo-img-laptop{
         display: none;
     }
+
+    .webinfo-text-container {
+
+        padding: 3rem !important;
+      
+    }
+
+    .webinfo-text-container p {
+        font-family: Montserrat;
+        font-size: 1rem;
+        color: white;
+        padding-bottom: 1rem;
+        text-align: left;
+    }
+    .webinfo-text-container h3 {
+        font-family: Montserrat;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 800;
+        padding-bottom: 1rem;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
     .webinfo-img-laptop{
         height: 15rem;
         right: 0;
-        top: 35rem;
+        top: 28rem;
+    }
+
+    .webinfo-text-container p {
+        font-family: Montserrat;
+        font-size: 1rem;
+        color: white;
+        padding-bottom: 1rem;
+        text-align: left;
+    }
+    .webinfo-text-container h3 {
+        font-family: Montserrat;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 800;
+        padding-bottom: 1rem;
     }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .webinfo-img-laptop{
-        height: 20rem;
-        right: 0;
+        height: 18rem;
+        right: 0rem;
         top: 25rem;
+    }
+    .webinfo-text-container p {
+        font-family: Montserrat;
+        font-size: 1.1rem;
+        color: white;
+        padding-bottom: 1rem;
+        text-align: left;
+    }
+    .webinfo-text-container h3 {
+        font-family: Montserrat;
+        color: white;
+        font-size: 3rem;
+        font-weight: 800;
+        padding-bottom: 1rem;
     }
 }
 
-@media (min-width: 1025px) {
-    .webinfo-img-laptop{
-        max-height: 25rem;
-        right: 0;
-        top: 25rem;
+@media (min-width: 1025px) and (max-width: 1343px) {
+    .webinfo-img-laptop {
+        max-height: 24rem;
+        right: 5rem;
+        top: 20rem;
     }
 }
 
-/* @media screen and (min-width: 1330){
-    .webinfo-container  img{
-   
-        position: absolute;
-        height: 30rem;
-    
-        transform: translate(-10%, 10%);
+@media (min-width: 1344px) {
+    .webinfo-img-laptop {
+        max-height: 30rem;
+        right: 5rem;
+        top: 13rem;
     }
-    
-} */
-/* @media all and (max-width:1400px) {
-
-    .webinfo-container img {
-   
-        position: absolute;
-     
-        max-width: 100%;
-        height: 28.125rem;
-        left: 38rem;
-        top: 128rem;
-    }
-} */
+}

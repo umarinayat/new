@@ -14,7 +14,7 @@ const Insights = () => {
               INSIGHTS<span>.</span>
             </h2>
             <ul className="row px-2 col-lg-12 col-md-12 col-sm-12">
-              <li className="col">
+              <li className="col" style={{ backgroundColor: "#FFA800" }}>
                 1.
                 <br />
                 Lorem Ipsum
@@ -51,31 +51,34 @@ const Insights = () => {
               </li>
             </ul>
           </Container>
-          <Container fluid className="p-0">
-            <div className="slider">
-              <Container className="p-0">
-                <div className="slider-container text-center">
-                  <img src={leftArrow} alt="left-arrow" />
-                  <div className="slider-heading-container">
-                    <p className="p1">1. </p>
-                    <p className="p2 p-1 text-center">Valuation </p>
-                  </div>
 
-                  <div className="slider-desc-container">
-                    <img src={barChart} alt="chart" />
-                    <p>
-                      Consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod tincidunt ut laoreet dolore magna aliquam.
-                      Consectetuer adipiscing elit, sed diam nonummy nibh
-                      euismod tincidunt ut laoreet dolore magna aliquam
-                    </p>
-                    <button>View Example</button>
-                  </div>
-                  <img src={rightArrow} alt="right-arrow" />
-                </div>
-              </Container>
+          <div className="slider-container text-center row justify-content-center m-0">
+            <img
+              src={leftArrow}
+              alt="left-arrow"
+              className="col-2 arrow-images"
+            />
+            <div className="slider-heading-container col col-4">
+              <p className="p1">1. </p>
+              <p className="p2 p-1 text-center">Valuation </p>
             </div>
-          </Container>
+
+            <div className="slider-desc-container col-4">
+              <img src={barChart} alt="chart" />
+              <p>
+                Consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                tincidunt ut laoreet dolore magna aliquam. Consectetuer
+                adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam
+              </p>
+              <button>View Example</button>
+            </div>
+            <img
+              className="col-2 arrow-images"
+              src={rightArrow}
+              alt="right-arrow"
+            />
+          </div>
         </div>
       </Container>
     </>
